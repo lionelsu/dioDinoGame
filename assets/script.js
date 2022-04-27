@@ -18,10 +18,10 @@ function jump() {
     let upInterval = setInterval(() => {
         if (position >= 150) {
             clearInterval(upInterval);
-         
+            //Descendo
             let downInterval = setInterval(() => {
                 if (position <= 0) {
-                    clearInverval(downInterval);
+                    clearInterval(downInterval);
                     isJumping = false;
                 } else {
                 position -= 20;
@@ -29,7 +29,7 @@ function jump() {
                 }
             }, 20);
         } else {
-   
+            //Subindo
         position += 20;
         hitbox.style.bottom = position + 'px';
         }
@@ -39,11 +39,11 @@ function jump() {
 function createCactus() {
     const cactus = document.createElement('div');
     let cactusPosition = 1000;
-    let randomTime = Math.random() * 6000;
+    let randomTime = Math.random() * 5000;
 
     if (isGameOver) return;
 
-    cactus.classList.add('cacutus');
+    cactus.classList.add('cactus');
     background.appendChild(cactus);
     cactus.style.left = 1000 + 'px';
 
@@ -56,7 +56,7 @@ function createCactus() {
         
         clearInterval(leftTimer);
         isGameOver = true;
-        document.body.innerHTML = '<h1 class="game-over">Fim de jogo</h1>'
+        document.body.innerHTML = '<h1 class="game-over">Fim de jogo <br> Parece que o jogo virou não é mesmo!?</h1>'
         } else {    
             cactusPosition -= 10;
             cactus.style.left = cactusPosition + 'px';
