@@ -9,5 +9,9 @@ Me desafiei um pouco e editei alguns sprites e a mensagem final do fim de jogo.
 Os comandos são básicos, BARRA DE ESPAÇO para PULAR e F5 para reiniciar a partida.
 
 #
-
+link para jogar:
+```
+https://lionelsu.github.io/dioDinoGame/
+```
+#
 # Muito obrigado pela oportunidade DIO!!!
