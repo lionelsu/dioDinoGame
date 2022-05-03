@@ -6,8 +6,7 @@ Jogo do dinossauro sem internet recriado com projeto prático na Bootcamp Philip
 
 Me desafiei um pouco e editei alguns sprites e a mensagem final do fim de jogo. 
 
-Estou tentando fazer uma lógica para o placar, mas eu ainda não consegui e quero me desafiar a usar 100% meu código. 
-Havendo mais atualizações eu vou editar o README.md. 
+Os comandos são básicos, BARRA DE ESPAÇO para PULAR e F5 para reiniciar a partida.
 
 #
 
